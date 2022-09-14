@@ -1,6 +1,6 @@
 class AccMng{
 public:
-   
+   //Constructor
    AccMng(){
       if(GetLastError() > 0){
          Print ("Error Refer: " + GetLastError());
